@@ -1,0 +1,437 @@
+@font-face{
+	font-family: "PTSans";
+	src: url(../fonts/PTS55F.ttf);
+}
+@font-face{
+	font-family: "PTSansNarrow";
+	src: url(../fonts/PTN57F.ttf);
+}
+@font-face{
+	font-family: "PTSansNarrowBold";
+	src: url(../fonts/PTN77F.ttf);
+}
+html, body{
+	margin: 0;
+	padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 16px PTSans, Arial, sans-serif;
+	width: 100%;
+	background-color: #060606;
+	color: #fff;
+}
+.wrapper {
+	width: 90%;
+	max-width: 980px;
+	min-width: 271px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.header-block-white{
+	text-align: center;
+	font-size: 3em; 
+	font-weight: normal;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.orange{
+	color: #FC4817;
+}
+.header-block-black{
+	text-transform: uppercase;
+	font: 3em PTSansNarrowBold, Arial, sans-serif;
+	margin-top: 0;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	background: url(../images/product.png) no-repeat left 29.5em, url(../images/header-bg.png) no-repeat top center;
+	background-size: contein, cover;
+	margin-bottom: 4%;
+	min-height: 761px;
+}
+.top-bar{
+	width: 100%;
+	padding: 20px 0 20px;
+}
+.logo{
+	display: inline-block;
+	width: 260px;
+	margin-right: 5%;
+}
+.logo img{
+	display: inline-block;
+	margin-right: 2%;
+}
+.header-icons{
+	display: inline-block;
+	float: right;
+	width: 55%;
+}
+.health, .good{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 1%;
+}
+.health{
+	width: 45%;
+	margin-right: 2%;
+}
+.good{
+	width: 51%;
+}
+.header .title{
+	font: 3.15em PTSansNarrow, Arial, sans-serif;
+	font-stretch: ultra-condensed;
+	color: #f0e394;
+	text-transform: uppercase;
+	text-align: left;
+}
+.header-block{
+	vertical-align: top;
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 37%;
+	margin: 1em 0 0 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	border: 1px solid transparent;
+	list-style-image: url(../images/l-menu-marker.png);
+}
+.left-sidebar ul{
+	padding-left: 1.6em;
+	margin-top: 0.4em;
+}
+.left-sidebar li{
+	font-size: 0.80em; 
+	font-weight: normal;
+	height: 2.5em;
+	border-bottom: 1px solid #545454;
+	border-image: url(../images/border-bottom.png) 1 stretch;
+	padding: 0.3em 0 0.3em 0 0.5em;
+	vertical-align: top;
+}
+.left-sidebar li:last-child{
+	border-bottom: none;
+}
+/* Center-Right Bar
+-----------------------------------------------------------------------------*/
+.h-center-right{
+	display: inline-block;
+	width: 60%;
+}
+/* Center Bar
+-----------------------------------------------------------------------------*/
+.center-bar {
+	display: inline-block;
+	padding-top: 25em;
+	width: 43%;
+	overflow: hidden;
+	border: 1px solid transparent;
+}
+.center-bar img{
+	max-width: 100%;
+}
+.content {
+	padding: 4%;
+	text-align: center;
+}
+.discont-text{
+	font-size: 0.80em; 
+	font-weight: normal;
+}
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	display: inline-block;
+	margin: 1em 0 0 0;
+	float: right;
+	width: 53%;/*295px;*/
+}
+.counter{
+	display: inline-block;
+	width: 47%;
+}
+.didgit{
+	box-sizing: border-box;
+	background: #F6F6F6 url(../images/didgit-middle.png) center repeat-x;
+	border-radius: 5px;
+	display: inline-block;
+	width: 30%;
+	margin-left: 1%;
+	height: 1.3em;
+	font: 2.5em PTSansNarrowBold, sans-serif;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+.didgit:first-child{
+	margin-left: 0;
+	color: #383330;
+	opacity: 0.8;
+}
+.counter-text{
+	display: inline-block;
+	padding: 2% 1%;
+	width: 45%;
+	background: rgba(4,4,4,0.6);
+	border-radius: 5px;
+}
+
+/* Right Sidebar - Form
+-----------------------------------------------------------------------------*/
+
+form{
+	box-sizing: border-box;
+	width: 100%;
+	height: 411px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-top: 25px;
+	padding: 0;
+	box-shadow: 0 0 25px #7D6836;
+}
+.form-head{
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+	background: url(../images/form-head.png) no-repeat center; /* #411208*/
+	background-size: cover;
+}
+.form-price{
+	box-sizing: border-box;
+	width: 49%;
+	display: inline-block;
+	padding: 20px 20px 35px;
+	vertical-align: top;
+}
+.form-price .text{
+	display: block;
+	font-size: 0.80em;
+	margin-bottom: 1em;
+}
+.form-price .price{
+	font-size: 2em;
+}
+.form-price:first-child {
+	color: #815B50;
+}
+.form-price:first-child .price{
+	font-size: 1.6em;
+}
+.form-right-input{
+	box-sizing: border-box;
+	width: 87%;
+	background-color: #F6F6F6;
+	color: #AAAAAA;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	padding: 1em;
+	margin: 20px 20px 0;
+}
+.button{
+	box-sizing: border-box;
+	width: 87%;
+	border-radius: 5px;
+	border: 1px solid #DD4118;
+	padding: 0;
+	margin: 20px;
+}
+.button span{
+	display: inline-block;
+	height: 62px;
+	font-size: 1.4em;
+	font-weight: bold;
+	box-sizing: border-box;
+	width: 20%;
+	background-color: #b13412;
+	padding: 0.8em;
+	vertical-align: top;
+	text-align: center;
+}
+.form-right-submit{
+	display: inline-block;
+	box-sizing: border-box;
+	height: 62px;
+	width: 80%;
+	background-color: #f3481a;
+	font-size: 1em;
+	font-weight: bold;
+	color: #FFF;
+	border: 1px solid #f3481a;
+	padding: 0.6em;
+	vertical-align: top;
+}
+.form-right-submit:hover, .form-right-submit:active{
+	background-color: #FD5A31;
+}
+.form-secure{
+	margin: 20px;
+	color: #000;
+	font-size: 0.75em;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+/* Block-1
+-----------------------------------------------------------------------------*/
+.block-1, .block-2, .block-3, .block-4{
+	margin: 3.5em auto;
+}
+.block-1{
+	width: 100%;
+	text-align: center;
+	background: url(../images/block-1.png) no-repeat center;
+	background-size: 100% auto;
+}
+.block-1 .header-block-white{
+	margin: 0 0 0.3em;
+}
+.questionary{
+	box-sizing: border-box;
+	width: 65%;
+	height: 26.6%;
+	background-color: #FFF;
+	border-radius: 10px;
+	color: #000;
+	font-weight: bold;
+	margin: 1em auto;
+	padding: 7% 5%;
+
+}
+.questionary a{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 45%;
+	min-width: 180px;
+	padding: 5%;
+	margin: 5% 2% 0 0;
+	text-decoration: none;
+	background: url(../images/button-two-colors.png) no-repeat center;
+	background-size: cover;
+	border-radius: 10px;
+	font-size: 1.2em;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+}
+.questionary a:last-child{
+	margin-right: 0;
+}
+.questionary a:hover{
+	background-color: #FD5A31;
+}
+.q-number{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	background-color: #E5E5E5;
+	text-align: center;
+	margin: 0 5% 0 0;
+	padding: 0.3em;
+	font: 2em Tens New Roman, serif;
+}
+.question{
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+/* Block-2
+-----------------------------------------------------------------------------*/
+
+.block-2{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #fff url(../images/ass-2.png) no-repeat top right;
+	background-size: auto 100%;
+	color: #000;
+	border-radius: 10px;
+}
+.b2-text{
+	width: 60%;
+	text-align: left;
+}
+
+/* Block-3
+-----------------------------------------------------------------------------*/
+
+.block-3{
+	box-sizing: border-box;
+	width: 114%;
+	background: url(../images/block-3.png) no-repeat left; 
+	background-size: contein;
+	margin: 0 0 0 -14%;
+}
+.b3-h1{
+	margin: 1em 0;
+}
+.b3-conteiner{
+	width: 60%;
+	float: right;
+	color: #000;
+	text-align: center;
+}
+.b3-item {
+	display: inline-block;
+	margin: 1%;
+	width: 30%;
+	min-width: 130px;
+	height: 40%;
+	min-height:180px;
+	border-radius: 10px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+.b3-item-image{
+	max-width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.b3-descr{
+	display: block;
+	height: 80px;
+	padding: 2%;
+}
+
+/* Block-4
+-----------------------------------------------------------------------------*/
+
+.block-4{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #fff url(../images/doctor.png) no-repeat right;
+	background-size: auto 100% ;
+	color: #000;
+	border-radius: 10px;
+}
+.b4-text{
+	width: 60%;
+	text-align: left;
+}
+.doctor{
+	display: inline-block;
+	width: 55%;
+	vertical-align: bottom;
+}
+.signature{
+	display: inline-block;
+	margin-left: 0;
+	width: 32%;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/

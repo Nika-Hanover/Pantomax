@@ -1,0 +1,53 @@
+@media only screen and (max-width: 459px){
+	.header {
+		background-position: left 28em, center top;
+	}
+	.logo {
+		width: 70%;
+	}
+	.header-icons {
+		width: 25%;
+		font-size: 0.8em;
+	}
+	.health, .good {
+		margin-right: 0;
+		width: 100%;
+	}
+	.num-question{
+		text-align: left;
+		margin-bottom: 0.5em;
+		line-height: 1.2;
+	}
+	.q-number{
+		margin: 0.5em 0;
+	}
+	.question {
+		margin-left: 1em;
+		width: 60%;
+	}
+	.questionary a {
+		margin: 0.3em 0;
+		width: 70%;
+	}
+	.block-2 .header-block-black {
+		width: 100%;
+		background: rgba(225, 225, 225, 0.5);
+		border-radius: 5px;
+	}
+	.b3-title {
+		background: rgba(0, 0, 0, 0) url("../images/block-3-from740px.png") no-repeat left center;
+		background-size: 70% auto;
+	}
+	.b3-h1{
+		width: 100%;
+		font-size: 1.8em;
+		background: rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
+	}
+	.doctor {
+		width: 100%;
+	}
+	.signature {
+		width: 50%;
+	}
+}

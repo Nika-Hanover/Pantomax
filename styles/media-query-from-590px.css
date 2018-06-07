@@ -1,0 +1,100 @@
+@media only screen and (max-width: 590px){
+	
+	.header-block-black, .header-block-white {
+		font-size: 2em;
+	}
+	
+	.header {
+		background-position: left 26em, center top;
+	}
+	.header-icons{
+		width: 48%;
+	}
+	.h-icon{
+		max-height: 20px;
+	}
+	.health, .good{
+		width: 40%;
+		margin-right: 2%;
+	}
+	.header-icons span{
+		font-size: 0.8em;
+	}
+	.header .title{
+		font-size: 2em;
+	}
+	.left-sidebar {
+		width: 100%;
+		background: rgba(4, 4, 4, 0.5);
+		border-radius: 5px;
+	}
+	.h-center-right{
+		width: 100%;
+	}
+	.center-bar {
+		padding-top: 20em;
+		width: 100%;
+	}
+	.content {
+		padding-bottom: 0;
+	}
+	.right-sidebar {
+		width: 100%;
+	}
+	.questionary{
+		width: 100%;
+		padding: 1.5em;
+	}
+	.q-number{
+		vertical-align: top;
+	}
+	.question{
+		display: inline-block; 
+		width: 70%;
+		font-size: 1.3em;
+		border: 1px solid transparent;
+		padding-top: 2%;
+	}
+	.block-2{
+		background-image: none;
+		padding: 0;
+	}
+	.b2-title{
+		width: 100%;
+		box-sizing: border-box;
+		background: #fff url(../images/ass-2.png) no-repeat top right;
+		background-size: auto 100%;
+		padding: 5%;
+		border-radius: 10px 10px 0 0;
+	}
+	.block-2 .header-block-black {
+		display: block;
+		width: 50%;
+		font-size: 1.8em;
+	}
+	.b2-text{
+		width: 100%;
+		padding-bottom: 3%;
+	}
+	.b2-text p{
+		margin: 2% 5%;
+	}
+	.block-3{
+		background-image: none; 
+	}
+	.b3-title{
+		background: url(../images/block-3.png) no-repeat left; 
+		background-size: 60% auto;
+	}
+	.b3-h1{
+		width: 70%;
+		float: right;
+		text-align: right;
+	}
+	.b3-conteiner {
+		width: 90%;
+	}
+	.b3-item {
+		width: 30%;
+	}
+}

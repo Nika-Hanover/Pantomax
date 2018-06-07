@@ -1,0 +1,19 @@
+@media only screen and (max-width: 740px){
+	.question {
+		font-size: 1.3em;
+	}
+	.block-3{
+		background: url(../images/block-3-from740px.png) no-repeat left; 
+	}
+	.block-4{
+		background-image: none;
+		background: #fff url(../images/doctor.png) no-repeat top right;
+		background-size: 100% auto;
+		padding-top: 8em;
+	}
+	.b4-text{
+		box-sizing: border-box;
+		padding: 5%;
+		width:100%;
+	}
+}
